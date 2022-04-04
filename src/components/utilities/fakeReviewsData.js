@@ -69,7 +69,7 @@ const fakeReviewsData = [
         img: "",
         gender: "female",
         quote: "Good one. Great job by the Writter.",
-        rating: 4.5,
+        rating: 4,
     },
     {
         id: 9,
@@ -81,7 +81,7 @@ const fakeReviewsData = [
     },
     {
         id: 10,
-        name: "Ruhul Amin",
+        name: "",
         img: "",
         gender: "male",
         quote: "need some improvements",

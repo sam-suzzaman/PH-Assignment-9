@@ -2,6 +2,7 @@ import React from "react";
 import "./customerReviews.css";
 import Review from "./../../components/Review/Review";
 
+
 const CustomerReviews = ({ children, reviewsData }) => {
     return (
         <section className="reviews-sec-wrapper">
