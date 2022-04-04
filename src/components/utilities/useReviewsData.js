@@ -12,7 +12,7 @@ const useReviewsData = () => {
         setLoading(false);
     }, []);
 
-    return [reviews, loading];
+    return { reviews, loading, setReviews };
 };
 
 export default useReviewsData;
