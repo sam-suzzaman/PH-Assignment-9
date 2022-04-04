@@ -39,9 +39,9 @@
     opacity: 0.9;
     font-weight: 400;
     text-align: justify;
-    border-left: 1px solid #0101ba;
+    border-left: 1px solid rgba(0, 0, 0, 0.399);
     padding: 0;
-    padding-left: 0.75rem;
+    padding-left: 0.5rem;
     border-radius: 5px;
 }
 
