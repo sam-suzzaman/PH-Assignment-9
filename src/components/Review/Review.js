@@ -1,6 +1,11 @@
 import React from "react";
 import "./review.css";
 
+// for rating
+import Rating from "react-rating";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 // default images
 import femalePic from "./../../assets/img/reviews/female.jpg";
 import malePic from "./../../assets/img/reviews/male.png";
@@ -22,7 +27,17 @@ const Revies = (props) => {
                 <div>
                     <h3 className="card-title">{name ? name : "Unknown"}</h3>
                     <p className="card-rating">
-                        Rating: {rating ? rating : "Not Availabe"}
+                        <Rating
+                            initialRating={rating}
+                            emptySymbol={<FontAwesomeIcon icon={faStar} />}
+                            fullSymbol={
+                                <FontAwesomeIcon
+                                    style={{ color: "#0101ba" }}
+                                    icon={faStar}
+                                />
+                            }
+                            readonly
+                        ></Rating>
                     </p>
                 </div>
             </div>
