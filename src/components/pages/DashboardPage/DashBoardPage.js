@@ -19,7 +19,7 @@ const DashBoardPage = () => {
             <div className="bar-data">
                 <BarChart width={1200} height={250} data={chartData}>
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
@@ -28,6 +28,7 @@ const DashBoardPage = () => {
                     <Bar dataKey="revenue" fill="#1a90bf" />
                 </BarChart>
             </div>
+
             <div className="area-chart">
                 <LineChart
                     width={1200}
@@ -36,7 +37,7 @@ const DashBoardPage = () => {
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
