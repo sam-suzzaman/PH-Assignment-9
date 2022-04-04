@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../../Button/Button";
 import CustomerReviews from "../../CustomerReviews/CustomerReviews";
 import Hero from "../../Hero/Hero";
@@ -18,7 +19,9 @@ const HomePage = () => {
         <section>
             <Hero />
             <CustomerReviews reviewsData={newArrayOfReviews}>
-                <Button btnName="see all reviews" />
+                <Link to="reviews">
+                    <Button btnName="see all reviews" />
+                </Link>
             </CustomerReviews>
         </section>
     );
