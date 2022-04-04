@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     padding: 1.5rem 4rem;
-    background-color: black;
+    background-color: rgba(46, 46, 46, 0.948);
     display: flex;
     justify-content: space-between;
     align-items: center;
