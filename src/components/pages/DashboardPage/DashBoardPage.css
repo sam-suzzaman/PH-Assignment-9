@@ -1,0 +1,17 @@
+.dashboard-wrapper {
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+}
+.bar-data {
+    margin-bottom: 5rem;
+    width: 100%;
+    overflow-x: scroll;
+}
+.area-chart {
+    width: 100%;
+    overflow-x: scroll;
+}
